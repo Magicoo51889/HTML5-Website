@@ -1,19 +1,25 @@
 body{
 	background-color: pink;
-	border-color: blueviolet;
-	border-style: offset;
-	border-width: 300;
+
+	margin: auto;
+	padding: 50px;
 }
 
 h1{
-	font-size: 24;
+	font-size: 36px;
 	font: bold;
 	font-family: Calibri;
+
 	color: black;
+
+	text-align: center;
 }
 
-p, p2{
-	font-size: 12;
+.para{
+	font-size: 18px;
 	font-family: Calibri;
-	color: black
+
+	outline-style: outset;
+	outline-color: firebrick;
+	padding: 5px
 }
