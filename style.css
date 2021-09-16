@@ -1,0 +1,19 @@
+body{
+	background-color: pink;
+	border-color: blueviolet;
+	border-style: offset;
+	border-width: 300;
+}
+
+h1{
+	font-size: 24;
+	font: bold;
+	font-family: Calibri;
+	color: black;
+}
+
+p, p2{
+	font-size: 12;
+	font-family: Calibri;
+	color: black
+}
