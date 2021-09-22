@@ -1,10 +1,27 @@
 body {
-	color: black;
+	background-color: hsla(215, 15%, 25%, 1);
+	color: hsla(0, 0%, 100%, 1);
 	font-family: Calibri;
 	padding: 50px
 }
 
 h1 {
 	text-align: center;
-	
 }
+
+a:link {
+	color: hsla(0, 0%, 100%, 1);
+}
+
+a:hover {
+	color: hsla(215, 100%, 80%, 1)
+}
+
+a:active {
+	color: hsla(215, 100%, 50%, 1)
+}
+
+a:visited {
+	color: hsla(215, 50%, 50%, 1)
+}
+
