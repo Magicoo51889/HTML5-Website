@@ -1,12 +1,42 @@
 body {
 	background-color: hsla(215, 15%, 25%, 1);
 	color: hsla(0, 0%, 100%, 1);
-	font-family: Calibri;
-	padding: 50px
+	font-family: Verdana, sans-serif;
+	padding: 50px;
+	margin: 0;
+	overflow: auto;
 }
 
-h1 {
+.header {
 	text-align: center;
+}
+
+.header2 {
+	color:hsla(0, 0%, 100%, 1);
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a{
+	display: block;
+	width: 100%;
+	padding: 14px;
+	text-align: center;
+	text-decoration: none;
 }
 
 a:link {
@@ -14,14 +44,14 @@ a:link {
 }
 
 a:hover {
-	color: hsla(215, 100%, 80%, 1)
+	color: hsla(215, 100%, 80%, 1);
 }
 
 a:active {
-	color: hsla(215, 100%, 50%, 1)
+	color: hsla(215, 100%, 50%, 1);
 }
 
 a:visited {
-	color: hsla(250, 50%, 50%, 1)
+	color: hsla(0, 0%, 100%, 1);
 }
 
