@@ -1,21 +1,10 @@
-body{
-	background-color: pink;
-	margin: auto;
-	padding: 50px;
-}
-
-h1{
-	font-size: 36px;
-	font: bold;
-	font-family: Calibri;
+body {
 	color: black;
-	text-align: center;
+	font-family: Calibri;
+	padding: 50px
 }
 
-.para{
-	font-size: 18px;
-	font-family: Calibri;
-	outline-style: outset;
-	outline-color: firebrick;
-	padding: 5px
+h1 {
+	text-align: center;
+	
 }
