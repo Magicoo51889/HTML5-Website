@@ -1,19 +1,12 @@
 body {
 	background-color: hsla(215, 15%, 25%, 1);
 	color: hsla(0, 0%, 100%, 1);
-	font-family: Verdana, sans-serif;
-	padding: 50px;
-	margin: 0;
-	overflow: auto;
+	font-family: Calibri;
+	padding: 50px
 }
 
-.header {
+h1 {
 	text-align: center;
-}
-
-.header2 {
-	color:hsla(0, 0%, 100%, 1);
-	font-weight: bold;
 }
 
 ul {
@@ -44,14 +37,13 @@ a:link {
 }
 
 a:hover {
-	color: hsla(215, 100%, 80%, 1);
+	color: hsla(215, 100%, 80%, 1)
 }
 
 a:active {
-	color: hsla(215, 100%, 50%, 1);
+	color: hsla(215, 100%, 50%, 1)
 }
 
 a:visited {
-	color: hsla(0, 0%, 100%, 1);
+	color: hsla(215, 50%, 50%, 1)
 }
-
