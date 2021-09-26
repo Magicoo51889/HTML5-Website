@@ -55,7 +55,7 @@ ul.topnav {
     overflow: hidden;
     background-color: hsla(0, 0%, 75%, 0.25);
     position: fixed;
-    width: 50%;
+    width: auto;
 	text-align: center;
 	backdrop-filter: blur(5px)
 }
