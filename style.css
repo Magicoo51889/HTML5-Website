@@ -1,27 +1,63 @@
 body {
-	background-color: hsla(215, 15%, 25%, 1);
 	color: hsla(0, 0%, 100%, 1);
-	font-size: 100%;
+	font-size: 24px;
 	font-family: Calibri;
-	padding: 2.5%
-}
+	overflow: auto;
+	float: left;
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-size: 1800% 1800%;
+	
+	-webkit-animation: rainbow 18s ease infinite;
+	-z-animation: rainbow 18s ease infinite;
+	-o-animation: rainbow 18s ease infinite;
+	  animation: rainbow 18s ease infinite;}
+	
+	@-webkit-keyframes rainbow {
+		0%{background-position:0% 82%}
+		50%{background-position:100% 19%}
+		100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+		0%{background-position:0% 82%}
+		50%{background-position:100% 19%}
+		100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+		0%{background-position:0% 82%}
+		50%{background-position:100% 19%}
+		100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+		0%{background-position:0% 82%}
+		50%{background-position:100% 19%}
+		100%{background-position:0% 82%}
+	}
 
 h1 {
 	text-align: center;
-	font-size: 26px;
-	padding: 1.5%;
+	font-size: 80px;
+	padding: 20px 100px;
+}
+
+.indexquestions{
+	padding: 0.0005% 2%;
+}
+
+.indexparagraphs {
+	padding: 0.0005% 2%;
 }
 
 ul.topnav {
+	border-radius: 15px;
 	list-style-type: none;
-    margin: 0%;
-    padding: 1%;
+    margin: 1%;
+    padding: 0.1%;
     overflow: hidden;
-    background-color: #333;
+    background-color: hsla(0, 0%, 75%, 0.25);
     position: fixed;
-	top: 0;
-    width: 100%;
+    width: 50%;
 	text-align: center;
+	backdrop-filter: blur(5px)
 }
 
 ul.topnav li {
@@ -30,24 +66,30 @@ ul.topnav li {
 
 ul.topnav li a{
 	display: flex;
-	width: auto;
+	margin: auto;
 	padding: 10px;
 	text-align: center;
 	text-decoration: none;
+	transition: box-shadow 200ms;
+}
+
+.topnav:hover{
+	box-shadow: hsl(211, 40%, 72%);
 }
 
 a:link {
-	color: hsla(0, 0%, 100%, 1);
+	color: hsla(0, 0%, 100%, 0.9);
 }
 
 a:hover {
-	color: hsla(215, 100%, 80%, 1)
+	color: hsla(0, 0%, 100%, 0.9)
 }
 
 a:active {
-	color: hsla(215, 100%, 50%, 1)
+	color: hsla(0, 0%, 50%, 0.9)
 }
 
 a:visited {
-	color: hsla(215, 50%, 50%, 1)
+	color: hsla(0, 0%, 85%, 0.9)
 }
+
