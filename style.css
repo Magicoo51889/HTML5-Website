@@ -5,7 +5,6 @@ body {
 
 }
 
-
 .gradientBackground { 
 	content: "";
 	position: absolute;
@@ -14,14 +13,16 @@ body {
 	top: 0;
 	left: 0;
 	overflow: hidden;
-	background: linear-gradient((124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1)));
-	background: -webkit-linear-gradient((124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1)));
+	background: -webkit-linear-gradient(124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1));
+	background: -o-linear-gradient(124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1));
+	background: -moz-linear-gradient(124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1));
+	background: linear-gradient(124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1));
 	background-size: 1800% 1800%;
 	
 	-webkit-animation: rainbow 18s ease infinite;
 	-z-animation: rainbow 18s ease infinite;
 	-o-animation: rainbow 18s ease infinite;
-	  animation: rainbow 18s ease infinite;
+	animation: rainbow 18s ease infinite;
 	
 	@-webkit-keyframes rainbow {
 		0%{background-position:0% 82%}
@@ -44,7 +45,6 @@ body {
 		100%{background-position:0% 82%}
 	}
 }
-
 
 h1 {
 	text-align: center;
