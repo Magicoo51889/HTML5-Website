@@ -2,15 +2,26 @@ body {
 	color: hsla(0, 0%, 100%, 1);
 	font-size: 24px;
 	font-family: Calibri;
-	overflow: auto;
-	float: left;
-	background: linear-gradient(124deg, hsl(8, 100%, 50%), hsl(0, 82%, 51%), hsl(46, 8#e3e81d), hsl(61, 82%, 51%), hsl(130, 82%, 51%), hsl(183, 82%, 51%), hsl(244, 82%, 51%), hsl(295, 100%, 48%), hsl(295, 100%, 48%));
+
+}
+
+
+.gradientBackground { 
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background: linear-gradient((124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1)));
+	background: -webkit-linear-gradient((124deg, hsla(8, 100%, 50%, 1), hsla(0, 82%, 51%, 1), hsla(46, 82%, 51%, 1), hsla(61, 82%, 51%, 1), hsla(130, 82%, 51%, 1), hsla(183, 82%, 51%, 1), hsla(244, 82%, 51%, 1), hsla(295, 100%, 48%, 1), hsla(295, 100%, 48%, 1)));
 	background-size: 1800% 1800%;
 	
 	-webkit-animation: rainbow 18s ease infinite;
 	-z-animation: rainbow 18s ease infinite;
 	-o-animation: rainbow 18s ease infinite;
-	  animation: rainbow 18s ease infinite;}
+	  animation: rainbow 18s ease infinite;
 	
 	@-webkit-keyframes rainbow {
 		0%{background-position:0% 82%}
@@ -32,6 +43,8 @@ body {
 		50%{background-position:100% 19%}
 		100%{background-position:0% 82%}
 	}
+}
+
 
 h1 {
 	text-align: center;
