@@ -58,7 +58,6 @@ h1 {
 	text-align: center;
 	font-size: 3em;
 	display: block;
-	flex-direction: column;
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
@@ -68,7 +67,6 @@ h1 {
 	text-align: center;
 	font-size: 2em;
 	display: block;
-	flex-direction: column;
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
@@ -78,7 +76,6 @@ h1 {
 	text-align: center;
 	font-size: 3em;
 	display: block;
-	flex-direction: column;
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
@@ -88,7 +85,6 @@ h1 {
 	text-align: center;
 	font-size: 2em;
 	display: block;
-	flex-direction: column;
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
@@ -98,7 +94,6 @@ h1 {
 	text-align: center;
 	font-size: 3em;
 	display: block;
-	flex-direction: column;
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
@@ -111,6 +106,16 @@ h1 {
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
+}
+
+.multiplicationJS {
+	text-align: center;
+	font-size: 1em;
+	display: block;
+	padding: 0.5em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+	
 }
 
 .halEye {
