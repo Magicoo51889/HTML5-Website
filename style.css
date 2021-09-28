@@ -72,6 +72,12 @@ h1 {
 	font-family: Sans-Serif;
 }
 
+.html5Img {  /* Should add an image to the HTML page */
+	width: 10px;
+	height: 15px;
+	position: relative;
+}
+
 .htmlHeaders {
 	text-align: center;
 	font-size: 3em;
