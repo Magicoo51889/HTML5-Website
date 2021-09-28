@@ -1,8 +1,9 @@
 body {
+	background-color: hsla(0, 0%, 100%, 1);
 	color: hsla(0, 0%, 100%, 1);
 	font-size: 24px;
 	font-family: Calibri;
-
+	float: left;
 }
 
 .gradientBackground { 
@@ -22,7 +23,7 @@ body {
 	-webkit-animation: rainbow 18s ease infinite;
 	-z-animation: rainbow 18s ease infinite;
 	-o-animation: rainbow 18s ease infinite;
-	animation: rainbow 18s ease infinite;}
+		animation: rainbow 18s ease infinite;}
 	
 	@-webkit-keyframes rainbow {
 		0%{background-position:0% 82%}
@@ -44,7 +45,7 @@ body {
 		50%{background-position:100% 19%}
 		100%{background-position:0% 82%}
 	}
-}
+
 
 h1 {
 	text-align: center;
@@ -58,6 +59,10 @@ h1 {
 
 .indexparagraphs {
 	padding: 0.0005% 2%;
+}
+
+.halEye {
+	background: -webkit-radial-gradient(white, red 20%, black);
 }
 
 ul.topnav {
