@@ -41,8 +41,6 @@ body::-webkit-scrollbar {
 	background-color: hsla(215, 15%, 25%, 1);
 	color: hsl(0, 0%, 15%);
 	background: -webkit-linear-gradient(0deg, hsla(0, 0%, 50%, 1));
-	float: none;
-	overflow-wrap: normal;
 	display: none; /* Removes scrollbar for Chrome, Safari and Opera */
 	scrollbar-width: none; /* Removes scrollbar for IE and Edge */
 	-ms-overflow-style: none; /* Removes scrollbar for Firefox */
@@ -56,27 +54,67 @@ h1 {
 	font-family: Sans-Serif;
 }
 
-.indexquestions{
+.indexHeaders {  /* Having classes for different pages and distinguishing between headers and paragraphs for quick adjustments */
 	text-align: center;
 	font-size: 3em;
-	display: flex;
-	flex-direction: column;
-	padding: 0.5em 10em;
-	position: relative;
-	font-family: Sans-Serif;
-}
-.indexparagraphs{
-	text-align: center;
-	font-size: 2em;
-	display: flex;
+	display: block;
 	flex-direction: column;
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
 }
 
+.indexParagraphs {
+	text-align: center;
+	font-size: 2em;
+	display: block;
+	flex-direction: column;
+	padding: 0.5em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+}
+
+.htmlHeaders {
+	text-align: center;
+	font-size: 3em;
+	display: block;
+	flex-direction: column;
+	padding: 0.5em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+}
+
+.htmlPararaphs {
+	text-align: center;
+	font-size: 2em;
+	display: block;
+	flex-direction: column;
+	padding: 0.5em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+}
+
+.cssHeaders {
+	text-align: center;
+	font-size: 3em;
+	display: block;
+	flex-direction: column;
+	padding: 0.5em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+}
+
+.cssParagraphs {
+	text-align: center;
+	font-size: 2em;
+	display: block;
+	padding: 0.5em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+}
+
 .halEye {
-	position: absolute;
+	position: relative;
 	background: -webkit-radial-gradient(white, red 20%, black);
 }
 
@@ -107,7 +145,7 @@ div.topnav li {
 div.topnav li a{
 	align-self: center;
 	position: relative;
-	display: flex;
+	display: block;
 	margin: auto;
 	padding: 10px;
 	padding: 0.5em;
