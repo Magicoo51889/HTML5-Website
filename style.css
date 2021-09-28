@@ -39,59 +39,58 @@
 
 body {
 	background-color: hsla(215, 15%, 25%, 1);
-	color: rgb(255, 255, 255);
+	color: hsl(0, 0%, 15%);
 	background: -webkit-linear-gradient(0deg, hsla(0, 0%, 50%, 1));
 	float: left;
 }
 
-
-
 h1 {
 	text-align: center;
-	font-size: 80px;
-	padding: 20px 100px;
+	font-size: 400%;
+	padding: 1;
 	position: relative;
 	font-family: Sans-Serif;
 }
 
 .indexquestions, .indexparagraphs{
-	font-size: 28px;
+	font-size: 3em;
 	display: flex;
 	flex-direction: column;
-	padding: 0.0005% 2%;
+	padding: 1em 2em;
 	position: relative;
 	font-family: Sans-Serif;
 }
 
 .halEye {
-	position: relative;
+	position: absolute;
 	background: -webkit-radial-gradient(white, red 20%, black);
 }
 
 ul.topnav {
-	border-radius: 15px;
+	border-radius: 1em;
 	list-style-type: none;
     margin: 1%;
-    padding: 0.1%;
+    padding: 1em;
     overflow: hidden;
     background-color: hsla(0, 0%, 75%, 0.25);
     position: relative;
     width: auto;
 	text-align: center;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(0.335em);
 	font-family: Sans-Serif;
-	font-size: 24px;
+	font-size: 2em;
 }
 
 ul.topnav li {
 	float: left;
+	position: relative;
 }
 
 ul.topnav li a{
 	position: relative;
 	display: flex;
 	margin: auto;
-	padding: 10px;
+	padding: 1.5em;
 	text-align: center;
 	text-decoration: none;
 	transition: box-shadow 200ms;
@@ -99,14 +98,15 @@ ul.topnav li a{
 
 .topnav:hover{
 	box-shadow: hsl(211, 40%, 72%);
+	position: relative;
 }
 
 a:link {
-	color: hsla(0, 0%, 100%, 0.9);
+	color: hsla(0, 0%, 15%, 0.9);
 }
 
 a:hover {
-	color: hsla(0, 0%, 100%, 0.9)
+	color: hsla(0, 0%, 40%, 0.9)
 }
 
 a:active {
@@ -114,7 +114,7 @@ a:active {
 }
 
 a:visited {
-	color: hsla(0, 0%, 85%, 0.9)
+	color: hsla(0, 0%, 15%, 0.9)
 }
 
 
