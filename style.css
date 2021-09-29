@@ -49,9 +49,17 @@ body::-webkit-scrollbar {
 h1 {
 	text-align: center;
 	font-size: 5rem;
-	padding: 1;
+	padding: 1em;
 	position: relative;
 	font-family: Sans-Serif;
+}
+
+.outputHeading {
+	position: relative;
+	font-size: 3em;
+	display: block;
+	padding: 0.5em 10em;
+	font-family: sans-serif;
 }
 
 .indexHeaders {  /* Having classes for different pages and distinguishing between headers and paragraphs for quick adjustments */
@@ -114,14 +122,13 @@ h1 {
 	font-family: Sans-Serif;
 }
 
-.multiplicationJS {
+.JSParagraphs {
 	text-align: center;
-	font-size: 1em;
+	font-size: 2em;
 	display: block;
 	padding: 0.5em 10em;
 	position: relative;
 	font-family: Sans-Serif;
-	
 }
 
 .halEye {
@@ -167,7 +174,7 @@ div.topnav li a{
 
 .topnav:hover{
 	position: relative;
-	box-shadow: hsl(211, 40%, 72%);
+	box-shadow: hsla(211, 40%, 72%, 1);
 }
 
 a:link {
@@ -186,4 +193,25 @@ a:visited {
 	color: hsla(0, 0%, 15%, 0.9)
 }
 
+#result {
+	text-align: center;
+	font-size: 2em;
+	display: block;
+	padding: 0.5em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+}
 
+#cmdMultiply {
+	text-align: center;
+	font-size: 0.75em;
+	display: block;
+	border: transparent;
+	padding: 1em 10em;
+	position: relative;
+	font-family: Sans-Serif;
+	background-color: hsla(0, 0%, 75%, 0.25);
+	backdrop-filter: blur(0.335em);
+	left: 40%;
+	right: 40%;
+}

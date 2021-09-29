@@ -1,4 +1,4 @@
-const outputHeading = document.getElementById('result');
+const outputParagraph = document.getElementById('result');
 const submitButton = document.getElementById('cmdMultiply');
 
 function multiply(e) {
@@ -8,10 +8,20 @@ function multiply(e) {
 	const number2 = parseInt(document.forms['maths']['number2']).value
 	const multiplied = number1 * number2
 
-	outputHeading.innerHTML = number1 + " x " + number2 + " = " + multiplied;
+	outputParagraph.innerHTML = number1 + " x " + number2 + " = " + multiplied;
+}
+
+const outputHeadingD2B = document.getElementById('result');
+const submitButtonD2B = document.getElementById('D2B')
+
+function D2B(decimal) {
+	decimal.preventDefault();
+
+	return (decimal >>> 0).toString(2);
 }
 
 submitButton.addEventListener('click', multiply);
+submitButton.addEventListener('click', D2B);
 
 
 /*

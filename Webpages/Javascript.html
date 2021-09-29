@@ -8,7 +8,7 @@
   </head>
   <body>
 	<noscript>You need to enable Javascript to run this app</noscript>
-    <script src="../script.js"></script>
+    <script src="../script.js" defer ></script>
 
 	<div class = "gradientBackground"></div>
 
@@ -19,11 +19,12 @@
 	</div>
 
 	<h1> How can you do this? </h1>
-	<p> The way to make this page be able to multiply the number is by using the Javascript file. You can do a whole range of different things with Javascript, from graphics to large online computers </p>
+
+	<p class="JSParagraphs" The way to make this page be able to multiply the number is by using the Javascript file. You can do a whole range of different things with Javascript, from graphics to large online computers </p>
 
 	<div> 
 
-		<form class = "multiplicationJS" name = 'maths'>
+		<form class = "JSParagraphs" name = 'maths'>
 			<label> Number 1 </label>
 			<input type = 'number' name = 'number1'>
 
@@ -34,6 +35,16 @@
 		</form>
 
 		<h2 id='result'></h2>
+
+	</div>
+
+	<div>
+		<form class = 'JSParagraphs' name = 'converter'>
+			<label>Decimal Number</label>
+			<input type = 'number' name = 'Decimal'>
+		</form>
+
+		<h2 id = 'result'></h2>
 
 	</div>
   </body>
