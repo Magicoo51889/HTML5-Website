@@ -44,7 +44,10 @@ body::-webkit-scrollbar {
 	display: none; /* Removes scrollbar for Chrome, Safari and Opera */
 	scrollbar-width: none; /* Removes scrollbar for IE and Edge */
 	-ms-overflow-style: none; /* Removes scrollbar for Firefox */
+	overflow: hidden;
+	word-wrap: normal;
 }
+
 
 h1 {
 	text-align: center;
