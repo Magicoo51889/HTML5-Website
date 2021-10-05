@@ -161,6 +161,7 @@ div.topnav {
 div.topnav li {
 	float: left;
 	position: relative;
+	list-style: none;
 }
 
 div.topnav li a{
