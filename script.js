@@ -11,17 +11,21 @@ function multiply(e) {
 	outputParagraph.innerHTML = number1 + " x " + number2 + " = " + multiplied;
 }
 
-const outputHeadingD2B = document.getElementById('result');
+const outputParagraphD2B = document.getElementById('result');
 const submitButtonD2B = document.getElementById('D2B')
 
 function D2B(decimal) {
 	decimal.preventDefault();
 
-	return (decimal >>> 0).toString(2);
+	const stndNumber = parseInt(document.forms['converter']['stndNumber'].value)
+	const decimalResult = stndNumber.toString(2);
+
+	outputParagraph.innerHTML = stndNumber + "is " + decimalResult + "in binary"
 }
 
 submitButton.addEventListener('click', multiply);
 submitButton.addEventListener('click', D2B);
+
 
 
 /*
